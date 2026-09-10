@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -12,8 +12,8 @@ html {
 
 body {
   font-family: "DM Sans", sans-serif;
-  background: #f3f0e9;
-  color: #171717;
+  background: #060b12;
+  color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -22,30 +22,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 button,
 input,
 textarea {
   font: inherit;
-}
-/* SCROLL REVEAL */
-
-.reveal {
-  opacity: 0;
-  transform: translateY(35px);
-  transition:
-    opacity 0.8s ease,
-    transform 0.8s ease;
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .reveal {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
 }
